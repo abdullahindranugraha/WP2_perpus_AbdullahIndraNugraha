@@ -20,6 +20,11 @@
     <li class="nav-item active">
         <!-- Nav Item - Dashboard -->
     <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Kategori Buku</span></a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
             <i class="fa fa-fw fa book"></i>
             <span>Data Buku</span></a>
@@ -28,6 +33,14 @@
         <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
             <i class="fa fa-fw fa book"></i>
             <span>Data Anggota</span></a>
+    </li>
+    <div class="sidebar-heading">
+        Dashboard
+    </div>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('admin/index'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Dashboard</span></a>
     </li>
     </li>
     <!-- Divider -->
